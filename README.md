@@ -7,6 +7,7 @@
 
 A customizable and easy-to-use SwiftUI component for displaying loading states in your apps. With LoadingViewKit, effortlessly manage loading indicators, placeholders, and error handling in a consistent and visually appealing way. Perfect for enhancing the user experience by providing clear and responsive feedback during data loading processes in SwiftUI applications.
 
+
 ## Installation
 LoadingViewKit is distributed via **Swift Package Manager**
 
@@ -25,13 +26,15 @@ import LoadingViewKit
 
 @State private var isLoading = true
 
-UILoadingView(title: "Loading...", isLoading: $isLoading) {
+LoadingViewKit(title: "Loading...", isLoading: $isLoading) {
     List {
         
     }
 }
 
 ```
+
+![Simulator Screenshot - iPhone 15 - 2024-09-07 at 23 36 37](https://github.com/user-attachments/assets/7c15a944-b832-4f36-be0c-48c3d1f293fc)
 
 ## License
 MIT License
